@@ -5,3 +5,35 @@
     padding: 1.5rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
+
+/* ----- GHD Fonts ----- */
+
+@font-face {
+  font-family: GHDModeratRegular;
+  src: url("GHD-Moderat-Regular.otf");
+}
+
+@font-face {
+  font-family: GHDModeratBlack;
+  src: url("GHD-Moderat-Black.otf");
+}
+
+.md-typeset {
+  font-family: "GHDModeratRegular";
+  letter-spacing: 1px;
+}
+
+.md-typeset h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "GHDModeratBlack";
+  letter-spacing: 1px;
+}
+
+/* reduce the spacing between list items in markdown */
+.md-typeset ul li {
+  margin-bottom: 0.2em;
+}
