@@ -85,6 +85,81 @@ This workflow is intended for projects where data is used to explore, explain, p
     - KPI calculations
     - Scheduled analysis
 
+
+=== "Model Development"
+
+    **Purpose**
+
+    Develop statistical, forecasting, optimisation, or machine learning models that support decision-making.
+
+    **Use when**
+
+    - Statistical modelling
+    - Simulation
+    - Optimisation
+    - Machine learning
+
+    **The client asks**
+
+    > What is likely to happen?
+
+    **Examples**
+
+    - Demand forecasting
+    - Incident prediction
+    - Customer propensity modelling
+    - Asset deterioration modelling
+
+    **Expected controls**
+
+    - Model specification
+    - Validation
+    - Assumptions log
+    - Review record
+
+    **Typical outputs**
+
+    - Predictive models
+    - Forecasts
+    - Risk models
+    - Classification models
+
+
+=== "Dashboard & Reporting"
+
+    **Purpose**
+
+    Enable ongoing monitoring of performance through self-service reporting and visualisation.
+
+    **Use when**
+
+    - Power BI, Dash, Tableau, or similar reporting solutions
+
+    **The client asks**
+
+    > How can we make this visible to others?
+
+    **Examples**
+
+    - Service performance dashboard
+    - Executive reporting pack
+    - Operational management dashboard
+
+    **Expected controls**
+
+    - Data model
+    - Visual QA
+    - UAT
+    - Refresh and support plan
+
+    **Typical outputs**
+
+    - Power BI dashboards
+    - Operational reports
+    - Executive scorecards
+    - KPI monitoring solutions
+
+
 ### Exit criteria
 - The client problem or opportunity is clearly defined.
 - The intended users and decision-makers are identified.
@@ -108,6 +183,30 @@ This workflow is intended for projects where data is used to explore, explain, p
 ### Inputs
 Link to environment setup
 Ways of working guidance: we recommend an agile approach, e.g. : https://basecamp.com/shapeup 
+
+=== "Exploratory Analysis"
+
+    **Purpose**
+
+    Answer a question or investigate a problem where the outcome is not yet known.
+
+=== "Repeatable Analysis"
+
+    **Purpose**
+
+    Create a repeatable analytical process that can be rerun as new data becomes available.
+
+=== "Model Development"
+
+    **Purpose**
+
+    Develop statistical, forecasting, optimisation, or machine learning models that support decision-making.
+
+=== "Dashboard & Reporting"
+
+    **Purpose**
+
+    Enable ongoing monitoring of performance through self-service reporting and visualisation.
 
 ### Exit criteria
 - Repository created
