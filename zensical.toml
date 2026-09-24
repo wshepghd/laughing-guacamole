@@ -1,0 +1,137 @@
+# Here we configure Zensical (a static site generator)
+[project]
+nav = [
+  "index.md",
+  { "Workflows" = [
+    "workflows/index.md",
+    { "Environment Setup" = [
+      "workflows/environment-setup/index.md",
+      "workflows/environment-setup/linux-wsl.md",
+    ] },
+    "workflows/analytics.md",
+    "workflows/data_engineering/index.md",
+    "workflows/web_app/index.md",
+  ] },
+  { "Checklists" = [
+    "checklists/index.md",
+    "checklists/web-app-requirements.md",
+  ] },
+  { "Guides" = [
+    "guides/index.md",
+    { "Local Development Environment" = [
+      "guides/environment/wsl.md",
+      "guides/environment/ghd-network.md",
+      "guides/environment/vscode.md",
+    ] },
+    { "Contributing to Code" = [
+      "guides/coding/github.md",
+      "guides/coding/ssh.md",
+      "guides/coding/copilot.md",
+      "guides/coding/pr.md",
+    ] },
+    { "Python" = [
+      "guides/python/uv.md",
+    ] },
+  ] },
+  { "Learning Paths" = [
+    "learning-paths/index.md",
+    "learning-paths/agile.md",
+    "learning-paths/ai.md",
+    "learning-paths/business-analysis.md",
+    "learning-paths/data-analytics.md",
+    "learning-paths/data-engineering.md",
+    "learning-paths/data-science.md",
+    "learning-paths/devops.md",
+    "learning-paths/git.md",
+    "learning-paths/web-development.md",
+  ] },
+  "contributing.md",
+]
+
+site_name = "Data & Insights Wiki"
+site_description = "Data & Insights Wiki."
+site_author = "edward.burrows@ghd.com"
+site_url = "https://victorious-ocean-02903f403.7.azurestaticapps.net/"
+repo_url = "https://github.com/ghd-core/dandi-wiki"
+repo_name = "ghd-core/dandi-wiki"
+edit_uri = "edit/main/docs/"
+extra_css = ["stylesheets/extra.css"]
+copyright = "Copyright &copy; 2026 GHD"
+extra_javascript = [
+  "javascripts/mathjax.js",
+  "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
+# Configure theme options
+[project.theme]
+features = [
+  "announce.dismiss",
+  "content.action.edit",
+  "content.action.view",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.expand",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.expand",
+  "navigation.tabs",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+favicon = "images/favicon.ico"
+logo = "images/GHD_White.svg"
+language = "en"
+
+# Palette toggle for automatic mode (default: follows OS preference)
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "amber"
+accent = "amber"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "amber"
+accent = "amber"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+# Extensions
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+[project.markdown_extensions.md_in_html]
