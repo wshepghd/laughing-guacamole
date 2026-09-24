@@ -1,0 +1,7 @@
+.md-typeset .tabbed-content {
+    background: #f8fafc;
+    border: 1px solid #dce3ea;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
