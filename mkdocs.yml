@@ -2,6 +2,8 @@ site_name: Analytics Workflow
 
 theme:
   name: material
+  features:
+    - content.tabs.link
 
 markdown_extensions:
 - admonition
