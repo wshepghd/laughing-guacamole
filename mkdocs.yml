@@ -8,4 +8,4 @@ markdown_extensions:
 - pymdownx.details
 - pymdownx.superfences
 - pymdownx.tabbed:
-      alternate_style: true
+alternate_style: true
