@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - target-alignment
 
 jobs:
   build:
