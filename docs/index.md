@@ -84,3 +84,34 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Automated reports
     - KPI calculations
     - Scheduled analysis
+
+### Exit criteria
+- The client problem or opportunity is clearly defined.
+- The intended users and decision-makers are identified.
+- The primary analytics route has been selected.
+- The key analytical questions are documented.
+- Expected outputs and deliverables are agreed.
+- Success measures and acceptance criteria are defined.
+- Scope, assumptions, constraints and exclusions are understood.
+- Initial data, ethical, privacy and governance risks have been identified.
+
+
+## 2. Setup
+> Establish the people, tools, environments and governance needed to deliver the project.
+
+### Key activities
+- Establish ways of working
+- Setup technical delivery structure
+- Define governance and assurance
+- Review reusable patterns and assets
+
+### Inputs
+Link to environment setup
+Ways of working guidance: we recommend an agile approach, e.g. : https://basecamp.com/shapeup 
+
+### Exit criteria
+- Repository created
+- Environments available
+- Access obtained
+- Delivery approach agreed
+- Governance approach defined
