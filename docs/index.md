@@ -18,7 +18,36 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 === "Exploratory Analysis"
 
-    Content for tab 1.
+        **Purpose**
+
+    Create a repeatable analytical process that can be rerun as new data becomes available.
+
+    **Use when**
+
+    - Analysis needs to be rerun or refreshed
+
+    **The client asks**
+
+    > How is performance changing over time?
+
+    **Examples**
+
+    - Benefits tracking
+    - Quarterly customer segmentation
+
+    **Expected controls**
+
+    - Structured repository
+    - Configuration management
+    - Tests for key transformations
+    - Reproducible environment
+
+    **Typical outputs**
+
+    - Analytical workflow
+    - Automated reports
+    - KPI calculations
+    - Scheduled analysis
 
 === "Repeatable Analysis"
 
