@@ -1,4 +1,4 @@
-## 0. This is a test site
+## Introduction
 
 Data analytics is the process of examining data to answer questions, generate insights, support decision-making, and measure outcomes. It involves understanding business needs, acquiring and preparing data, applying analytical techniques, and communicating findings in a way that drives action.
 
@@ -214,3 +214,124 @@ Ways of working guidance: we recommend an agile approach, e.g. : https://basecam
 - Access obtained
 - Delivery approach agreed
 - Governance approach defined
+
+## 3. Data discovery
+
+> Identify, access, understand and assess the data needed to answer the analytical questions.
+
+### Activities
+- Identify data sources
+- Obtain access
+- Profile data
+- Assess quality
+- Assess ability to answer analytical question
+- Document limitations
+
+### Inputs
+?
+
+### Exit criteria
+- Data sources identified
+- Data quality understood
+- Risks and gaps documented
+- Data suitability confirmed
+
+## 4. Design
+> Design how the project will transform data into evidence, insight, predictions, monitoring information or recommendations.
+
+### Activities
+- Design analytical approach
+- Define metrics and calculations
+- Design outputs
+- Define validation approach
+
+### Inputs
+?
+
+### Exit criteria
+- Analytical design agreed
+- Validation approach agreed
+- Key assumptions documented
+
+## 5. Iterative build
+> Develop the analysis or analytical product in manageable increments, adapting the solution as understanding improves.
+
+### Activities
+- Build solution
+- Refine approach
+- Document decisions
+- Manage backlog and change
+
+### Inputs
+
+- Code collaboration
+- UI/UX guidance
+
+### Exit criteria
+
+- Solution implemented
+- Documentation maintained
+- User feedback incorporated
+- Ready for testing
+
+## 6. Testing, validation and assurance
+> Confirm the solution is correct, reliable, understandable and suitable for its intended use.
+
+### Activities
+- Perform technical testing
+- Validate outputs
+- Conduct user acceptance testing
+- Update backlog
+
+### Inputs
+- ?
+
+### Exit criteria
+- Testing completed
+- Issues accepted or added to backlog
+- Validation evidence recorded
+- Approved for release
+
+## 7. Delivery
+> Prepare, approve and release the analytical output/increment through an appropriate channel so that intended users can access, understand and use it.
+
+### Activities
+- Deploy or publish solution
+- Configure access
+- Complete release activities
+- Communicate release
+- Verify production operation
+
+### Inputs
+- ?
+
+### Exit criteria
+- Solution published
+- Users have access
+- Documentation available
+- Release accepted
+
+### Iterate
+> Iterate as needed. New insights, user feedback, or changing requirements may require a return to Data Discovery (3), Design (4), or Iterative Build (5) before proceeding.
+
+## 8. Handover
+> Transfer the knowledge, responsibilities and assets needed for the client or receiving team to operate, maintain and improve the analytical solution.
+
+### Activities
+- Deploy or publish solution
+- Configure access
+- Complete release activities
+- Communicate release
+- Verify production operation
+
+### Inputs
+- ?
+
+### Exit criteria
+- Ownership assigned
+- Knowledge transferred
+- Support model agreed
+- Project closed
+
+### Additional
+- Patterns written up and added to GHD wiki
