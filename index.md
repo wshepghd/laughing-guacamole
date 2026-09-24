@@ -1,3 +1,8 @@
+---
+layout: default
+title: Workflow
+---
+
 ## 0. Introduction
 
 Data analytics is the process of examining data to answer questions, generate insights, support decision-making, and measure outcomes. It involves understanding business needs, acquiring and preparing data, applying analytical techniques, and communicating findings in a way that drives action.
