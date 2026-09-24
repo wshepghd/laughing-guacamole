@@ -18,7 +18,43 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 === "Exploratory Analysis"
 
-        **Purpose**
+    **Purpose**
+
+    Answer a question or investigate a problem where the outcome is not yet known.
+
+    **Use when**
+
+    - One-off investigation
+    - Internal evidence gathering
+    - Early-stage discovery
+
+    **The client asks**
+
+    > What is happening and why?
+
+    **Examples**
+
+    - Why have customer complaints increased?
+    - What factors contribute to network incidents?
+    - Which assets are most likely to fail?
+
+    **Expected controls**
+
+    - Simple repository
+    - Documented notebooks/scripts
+    - Peer review
+
+    **Typical outputs**
+
+    - Insights report
+    - Recommendations
+    - Root cause analysis
+    - Opportunity assessment
+
+
+=== "Repeatable Analysis"
+
+    **Purpose**
 
     Create a repeatable analytical process that can be rerun as new data becomes available.
 
@@ -48,7 +84,3 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Automated reports
     - KPI calculations
     - Scheduled analysis
-
-=== "Repeatable Analysis"
-
-    Content for tab 2.
