@@ -4,6 +4,8 @@ Data analytics is the process of examining data to answer questions, generate in
 
 This workflow is intended for projects where data is used to explore, explain, predict, monitor, or support decisions. In the first section you will select the analytics "route" that best reflects the work, each section will then have guidance specific to your selected route.
 
+---
+
 ## 1. Project framing
 
 > Establish what the client needs, why analytics is an appropriate response, and which analytics route best fits the problem.
@@ -165,6 +167,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Scope, assumptions, constraints and exclusions are understood.
 - Initial data, ethical, privacy and governance risks have been identified.
 
+---
 
 ## 2. Setup
 > Establish the people, tools, environments and governance needed to deliver the project.
@@ -177,10 +180,12 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 ### Guidance
 - _Link to environment setup_
-- Ways of working: we recommend an agile approach, e.g. : https://basecamp.com/shapeup
+- Ways of working: we recommend an agile approach, e.g. [Shape Up] (https://basecamp.com/shapeup)
 
 === "Exploratory Analysis"
-
+    **Guidance**
+    - N/A
+    
     **Inputs**
     - N/A
 
@@ -234,6 +239,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Governance approach defined
 - Team is mobilised
 
+---
+
 ## 3. Data discovery
 
 > Identify, access, understand and assess the data needed to answer the analytical questions.
@@ -254,6 +261,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Data quality understood
 - Risks and gaps documented
 - Data suitability confirmed
+
+---
 
 ## 4. Design
 > Design how the project will transform data into evidence, insight, predictions, monitoring information or recommendations.
