@@ -183,28 +183,28 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Ways of working: we recommend an agile approach, e.g. [Shape Up] (https://basecamp.com/shapeup)
 
 === "Exploratory Analysis"
-   - Agree key questions and hypotheses to investigate
-   - Identify potentially relevant datasets and SMEs
-   - Set expectations that findings may change project direction
-   - Establish workspace for rapid analysis and experimentation
+    - Agree key questions and hypotheses to investigate
+    - Identify potentially relevant datasets and SMEs
+    - Set expectations that findings may change project direction
+    - Establish workspace for rapid analysis and experimentation
  
 === "Repeatable Analysis"
-   - Define frequency of execution and operational ownership
-   - Identify opportunities for automation from the outset
-   - Agree reproducibility and documentation standards
-   - Establish source control and deployment approach
+    - Define frequency of execution and operational ownership
+    - Identify opportunities for automation from the outset
+    - Agree reproducibility and documentation standards
+    - Establish source control and deployment approach
  
 === "Model Development"
-   - Confirm prediction/classification objective and success metrics
-   - Identify required modelling tools and compute resources
-   - Define model governance requirements
-   - Agree validation and approval approach
+    - Confirm prediction/classification objective and success metrics
+    - Identify required modelling tools and compute resources
+    - Define model governance requirements
+    - Agree validation and approval approach
  
 === "Dashboard & Reporting"
-   - Confirm audience groups and decision-makers
-   - Identify reporting platform and hosting environment
-   - Define security and access requirements
-   - Agree publication and refresh responsibilities
+    - Confirm audience groups and decision-makers
+    - Identify reporting platform and hosting environment
+    - Define security and access requirements
+    - Agree publication and refresh responsibilities
 
 ### Exit criteria
 - Repository created
@@ -232,28 +232,28 @@ This workflow is intended for projects where data is used to explore, explain, p
 ?
 
 === "Exploratory Analysis"
-- Assess breadth of available data sources
-- Identify gaps that may limit investigation
-- Explore unusual variables and potential indicators
-- Prioritise fast access to data over complete integration
+    - Assess breadth of available data sources
+    - Identify gaps that may limit investigation
+    - Explore unusual variables and potential indicators
+    - Prioritise fast access to data over complete integration
  
 === "Repeatable Analysis"
-- Assess long-term availability and stability of data sources
-- Evaluate data refresh mechanisms
-- Identify recurring quality issues
-- Document source-to-output lineage requirements
+    - Assess long-term availability and stability of data sources
+    - Evaluate data refresh mechanisms
+    - Identify recurring quality issues
+    - Document source-to-output lineage requirements
  
 === "Model Development"
-- Assess target variable availability and quality
-- Identify features that may influence outcomes
-- Examine historical coverage and volume
-- Assess class imbalance and bias risks
+    - Assess target variable availability and quality
+    - Identify features that may influence outcomes
+    - Examine historical coverage and volume
+    - Assess class imbalance and bias risks
  
 === "Dashboard & Reporting"
-- Identify KPIs, dimensions and reporting hierarchies
-- Assess data readiness for visualisation
-- Understand reporting granularity requirements
-- Identify trusted data sources for business reporting
+    - Identify KPIs, dimensions and reporting hierarchies
+    - Assess data readiness for visualisation
+    - Understand reporting granularity requirements
+    - Identify trusted data sources for business reporting
 
 ### Exit criteria
 - Data sources identified
