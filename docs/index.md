@@ -12,9 +12,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Confirm the business question, decision context and users.
 - Agree the expected level of reuse, longevity and assurance.
 - Identify data sensitivity, client constraints, hosting needs and security considerations.
-- Select analytics route
-- Define scope and deliverables
-
+- Select analytics route.
+- Define scope and deliverables.
 
 === "Exploratory Analysis"
 
@@ -135,15 +134,11 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     - Power BI, Dash, Tableau, or similar reporting solutions
 
-    **The client asks**
-
-    > How can we make this visible to others?
-
     **Examples**
 
-    - Service performance dashboard
-    - Executive reporting pack
-    - Operational management dashboard
+    > Service performance dashboard
+    > Executive reporting pack
+    > Operational management dashboard
 
     **Expected controls**
 
@@ -180,33 +175,56 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Define governance and assurance
 - Review reusable patterns and assets
 
-### Inputs
-Link to environment setup
-Ways of working guidance: we recommend an agile approach, e.g. : https://basecamp.com/shapeup 
+### Guidance
+- _Link to environment setup_
+- Ways of working: we recommend an agile approach, e.g. : https://basecamp.com/shapeup
 
 === "Exploratory Analysis"
 
-    **Purpose**
+    **Inputs**
+    - N/A
 
-    Answer a question or investigate a problem where the outcome is not yet known.
+    **Activities**
+    - Set up notebooks for investigation
+    - Identify candidate quick-access data sources
+    - Agree approach for capturing findings and assumptions
+
+    **Outputs**
+    - Assumptions log
 
 === "Repeatable Analysis"
 
-    **Purpose**
+    **Inputs**
+    - Refresh frequency requirements
 
-    Create a repeatable analytical process that can be rerun as new data becomes available.
+    **Activities**
+    - Design reproducible repository structure
+
+    **Outputs**
+    - N/A
 
 === "Model Development"
 
-    **Purpose**
+    **Inputs**
+    - Performance requirements
 
-    Develop statistical, forecasting, optimisation, or machine learning models that support decision-making.
+    **Activities**
+    - Define validation framework
+
+    **Outputs**
+    - N/A
 
 === "Dashboard & Reporting"
 
-    **Purpose**
+    **Inputs**
+    - Refresh frequency requirements
 
-    Enable ongoing monitoring of performance through self-service reporting and visualisation.
+    **Activities**
+    - Define security model
+    - Agree publication and release process
+
+    **Outputs**
+    - N/A
 
 ### Exit criteria
 - Repository created
@@ -214,6 +232,7 @@ Ways of working guidance: we recommend an agile approach, e.g. : https://basecam
 - Access obtained
 - Delivery approach agreed
 - Governance approach defined
+- Team is mobilised
 
 ## 3. Data discovery
 
