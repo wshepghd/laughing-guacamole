@@ -2,7 +2,7 @@
 
 Data analytics is the process of examining data to answer questions, generate insights, support decision-making, and measure outcomes. It involves understanding business needs, acquiring and preparing data, applying analytical techniques, and communicating findings in a way that drives action.
 
-This workflow is intended for projects where data is used to explore, explain, predict, monitor, or support decisions. In the first section you will select the analytics "route" that best reflects the work, each section will then have guidance specific to your selected route.
+This workflow is intended for projects where data is used to explore, explain, predict, monitor, or support decisions. In the first section you will select the analytics route that best reflects the work. Subsequent sections provide guidance tailored to the selected route.
 
 ---
 
@@ -101,9 +101,9 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     **Examples**
 
-    > Service performance dashboard
-    > Executive reporting pack
-    > Operational management dashboard
+    - Service performance dashboard
+    - Executive reporting pack
+    - Operational management dashboard
 
     **Typical outputs**
 
@@ -136,8 +136,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 ### Guidance
 - Setup working environments as per wiki guidance (_Link to environment setup_)
-- An agile approach to project delivery is recommended, for example: [Shape Up] (https://basecamp.com/shapeup)
-- Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/ 
+- An agile approach to project delivery is recommended, for example: https://basecamp.com/shapeup
+- Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/
 
 === "Exploratory Analysis"
     Additional activities:
@@ -299,7 +299,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Validation approach agreed
 - Key assumptions documented
 
-!!! tip Iterate as needed. If the data collected is not sufficient to support the metrics or outputs identified, it may require a return to Data Discovery (3) before proceeding.
+!!! note Iterate as needed. If the data collected is not sufficient to support the metrics or outputs identified, it may require a return to Data Discovery (3) before proceeding.
 
 ---
 
@@ -313,7 +313,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Manage backlog and change
 
 ### Guidance
-- Code collaboration
+- Code collaboration: https://dandi-wiki.ghd.com/guides/coding/pr/
 - UI/UX guidance and examples: https://lawsofux.com/, https://m3.material.io/, https://design-system.service.gov.uk/
 - Data visualisation guidance: https://royal-statistical-society.github.io/datavisguide/, https://service-manual.ons.gov.uk/data-visualisation
 - To help ensure that project outputs tell an effective story: https://www.effectivedatastorytelling.com/
@@ -323,7 +323,6 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Create and iterate exploratory visualisations.
     - Engage stakeholders to review findings and steer further investigation.
     - Document emerging insights, assumptions and limitations.
-    - Refine business questions based on evidence discovered.
  
 === "Repeatable Analysis"
     - Build data ingestion and transformation workflows.
