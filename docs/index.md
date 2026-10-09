@@ -23,12 +23,6 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     Answer a question or investigate a problem where the outcome is not yet known.
 
-    **Use when**
-
-    - One-off investigation
-    - Internal evidence gathering
-    - Early-stage discovery
-
     **The client asks**
 
     > What is happening and why?
@@ -38,12 +32,6 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Why have customer complaints increased?
     - What factors contribute to network incidents?
     - Which assets are most likely to fail?
-
-    **Expected controls**
-
-    - Simple repository
-    - Documented notebooks/scripts
-    - Peer review
 
     **Typical outputs**
 
@@ -59,10 +47,6 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     Create a repeatable analytical process that can be rerun as new data becomes available.
 
-    **Use when**
-
-    - Analysis needs to be rerun or refreshed
-
     **The client asks**
 
     > How is performance changing over time?
@@ -71,13 +55,6 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     - Benefits tracking
     - Quarterly customer segmentation
-
-    **Expected controls**
-
-    - Structured repository
-    - Configuration management
-    - Tests for key transformations
-    - Reproducible environment
 
     **Typical outputs**
 
@@ -93,13 +70,6 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     Develop statistical, forecasting, optimisation, or machine learning models that support decision-making.
 
-    **Use when**
-
-    - Statistical modelling
-    - Simulation
-    - Optimisation
-    - Machine learning
-
     **The client asks**
 
     > What is likely to happen?
@@ -110,13 +80,6 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Incident prediction
     - Customer propensity modelling
     - Asset deterioration modelling
-
-    **Expected controls**
-
-    - Model specification
-    - Validation
-    - Assumptions log
-    - Review record
 
     **Typical outputs**
 
@@ -132,22 +95,15 @@ This workflow is intended for projects where data is used to explore, explain, p
 
     Enable ongoing monitoring of performance through self-service reporting and visualisation.
 
-    **Use when**
+    **The client asks**
 
-    - Power BI, Dash, Tableau, or similar reporting solutions
+    > How do I monitor and communicate this?
 
     **Examples**
 
     > Service performance dashboard
     > Executive reporting pack
     > Operational management dashboard
-
-    **Expected controls**
-
-    - Data model
-    - Visual QA
-    - UAT
-    - Refresh and support plan
 
     **Typical outputs**
 
@@ -179,32 +135,54 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Review reusable patterns and assets
 
 ### Guidance
-- _Link to environment setup_
-- Ways of working: we recommend an agile approach, e.g. [Shape Up] (https://basecamp.com/shapeup)
+- Setup working environments as per wiki guidance _Link to environment setup_
+- An agile approach to project delivery is recommended, see the following links for further information:
+   - [Shape Up] (https://basecamp.com/shapeup)
+- Guidance for repository setup:
+   - https://cookiecutter-data-science.drivendata.org/ 
 
 === "Exploratory Analysis"
     - Agree key questions and hypotheses to investigate
     - Identify potentially relevant datasets and SMEs
     - Set expectations that findings may change project direction
     - Establish workspace for rapid analysis and experimentation
+    - Prepare for the following expected controls:
+       - Simple repository
+       - Documented notebooks/scripts
+       - Peer review
  
 === "Repeatable Analysis"
     - Define frequency of execution and operational ownership
     - Identify opportunities for automation from the outset
     - Agree reproducibility and documentation standards
     - Establish source control and deployment approach
+    - Prepare for the following expected controls:
+       - Structured repository
+       - Configuration management
+       - Tests for key transformations
+       - Reproducible environment
  
 === "Model Development"
     - Confirm prediction/classification objective and success metrics
     - Identify required modelling tools and compute resources
     - Define model governance requirements
     - Agree validation and approval approach
+    - Prepare for the following expected controls:
+       - Model specification
+       - Validation
+       - Assumptions log
+       - Review record
  
 === "Dashboard & Reporting"
     - Confirm audience groups and decision-makers
     - Identify reporting platform and hosting environment
     - Define security and access requirements
     - Agree publication and refresh responsibilities
+    - Prepare for the following expected controls:
+       - Data model
+       - Visual QA
+       - UAT
+       - Refresh and support plan
 
 ### Exit criteria
 - Repository created
@@ -229,7 +207,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Document limitations
 
 ### Guidance
-?
+- Methodology for data discovery:
+   - https://www.ibm.com/docs/it/SS3RA7_18.3.0/pdf/ModelerCRISPDM.pdf (this is partially tied to a software but the advice is mostly generic)
 
 === "Exploratory Analysis"
     - Assess breadth of available data sources
@@ -272,8 +251,9 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Design outputs
 - Define validation approach
 
-### Inputs
-?
+### Guidance
+- OKRs as a method to improve goal setting:
+   - https://www.whatmatters.com/get-examples
 
 ### Exit criteria
 - Analytical design agreed
@@ -329,8 +309,9 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Communicate release
 - Verify production operation
 
-### Inputs
-- ?
+### Guidance
+- To help ensure that project outputs tell an effective story:
+   - https://www.effectivedatastorytelling.com/
 
 ### Exit criteria
 - Solution published
