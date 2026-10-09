@@ -140,6 +140,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/ 
 
 === "Exploratory Analysis"
+    Additional activities:
     - Agree key questions and hypotheses to investigate
     - Identify potentially relevant datasets and SMEs
     - Set expectations that findings may change project direction
@@ -150,6 +151,7 @@ This workflow is intended for projects where data is used to explore, explain, p
        - Peer review
  
 === "Repeatable Analysis"
+    Additional activities:
     - Define frequency of execution and operational ownership
     - Identify opportunities for automation from the outset
     - Agree reproducibility and documentation standards
@@ -161,17 +163,19 @@ This workflow is intended for projects where data is used to explore, explain, p
        - Reproducible environment
  
 === "Model Development"
+    Additional activities:
     - Confirm prediction/classification objective and success metrics
     - Identify required modelling tools and compute resources
     - Define model governance requirements
     - Agree validation and approval approach
     - Prepare for the following expected controls:
-          - Model specification
-          - Validation
-          - Assumptions log
-          - Review record
+             - Model specification
+             - Validation
+             - Assumptions log
+             - Review record
  
 === "Dashboard & Reporting"
+    Additional activities:
     - Confirm audience groups and decision-makers
     - Identify reporting platform and hosting environment
     - Define security and access requirements
@@ -208,24 +212,28 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Methodology for data discovery: https://www.ibm.com/docs/it/SS3RA7_18.3.0/pdf/ModelerCRISPDM.pdf (this is partially tied to a software but the advice is mostly generic)
 
 === "Exploratory Analysis"
+    Additional activities:
     - Assess breadth of available data sources
     - Identify gaps that may limit investigation
     - Explore unusual variables and potential indicators
     - Prioritise fast access to data over complete integration
  
 === "Repeatable Analysis"
+    Additional activities:
     - Assess long-term availability and stability of data sources
     - Evaluate data refresh mechanisms
     - Identify recurring quality issues
     - Document source-to-output lineage requirements
  
 === "Model Development"
+    Additional activities:
     - Assess target variable availability and quality
     - Identify features that may influence outcomes
     - Examine historical coverage and volume
     - Assess class imbalance and bias risks
  
 === "Dashboard & Reporting"
+    Additional activities:
     - Identify KPIs, dimensions and reporting hierarchies
     - Assess data readiness for visualisation
     - Understand reporting granularity requirements
@@ -284,7 +292,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 ### Guidance
 - Code collaboration
-- UI/UX guidance
+- UI/UX guidance and examples: https://lawsofux.com/, https://m3.material.io/, https://design-system.service.gov.uk/
+- Data visualisation guidance: https://royal-statistical-society.github.io/datavisguide/, https://service-manual.ons.gov.uk/data-visualisation
 
 === "Exploratory Analysis"
     - X
@@ -296,7 +305,7 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Z
  
 === "Dashboard & Reporting"
-    - A
+    - Dashboard design guidance: https://www.datacamp.com/tutorial/dashboard-design-tutorial
 
 ### Exit criteria
 
