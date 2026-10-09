@@ -140,17 +140,18 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/ 
 
 === "Exploratory Analysis"
+    Additional activities:
+    
     - Agree key questions and hypotheses to investigate
     - Identify potentially relevant datasets and SMEs
     - Set expectations that findings may change project direction
     - Establish workspace for rapid analysis and experimentation
     - Prepare for the following expected controls:
-       - Simple repository
-       - Documented notebooks/scripts
-       - Peer review
+             - Simple repository
+             - Documented notebooks/scripts
+             - Peer review
  
 === "Repeatable Analysis"
-    
     Additional activities:
     
     - Define frequency of execution and operational ownership
@@ -158,13 +159,12 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Agree reproducibility and documentation standards
     - Establish source control and deployment approach
     - Prepare for the following expected controls:
-       - Structured repository
-       - Configuration management
-       - Tests for key transformations
-       - Reproducible environment
+             - Structured repository
+             - Configuration management
+             - Tests for key transformations
+             - Reproducible environment
  
 === "Model Development"
-    
     Additional activities:
     
     - Confirm prediction/classification objective and success metrics
@@ -179,15 +179,16 @@ This workflow is intended for projects where data is used to explore, explain, p
  
 === "Dashboard & Reporting"
     Additional activities:
+    
     - Confirm audience groups and decision-makers
     - Identify reporting platform and hosting environment
     - Define security and access requirements
     - Agree publication and refresh responsibilities
     - Prepare for the following expected controls:
-       - Data model
-       - Visual QA
-       - UAT
-       - Refresh and support plan
+             - Data model
+             - Visual QA
+             - UAT
+             - Refresh and support plan
 
 ### Exit criteria
 - Repository created
@@ -216,6 +217,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 
 === "Exploratory Analysis"
     Additional activities:
+    
     - Assess breadth of available data sources
     - Identify gaps that may limit investigation
     - Explore unusual variables and potential indicators
@@ -223,6 +225,7 @@ This workflow is intended for projects where data is used to explore, explain, p
  
 === "Repeatable Analysis"
     Additional activities:
+    
     - Assess long-term availability and stability of data sources
     - Evaluate data refresh mechanisms
     - Identify recurring quality issues
@@ -230,6 +233,7 @@ This workflow is intended for projects where data is used to explore, explain, p
  
 === "Model Development"
     Additional activities:
+    
     - Assess target variable availability and quality
     - Identify features that may influence outcomes
     - Examine historical coverage and volume
@@ -237,6 +241,7 @@ This workflow is intended for projects where data is used to explore, explain, p
  
 === "Dashboard & Reporting"
     Additional activities:
+    
     - Identify KPIs, dimensions and reporting hierarchies
     - Assess data readiness for visualisation
     - Understand reporting granularity requirements
@@ -294,8 +299,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Validation approach agreed
 - Key assumptions documented
 
-### Iterate
-> Iterate as needed. If the data collected is not sufficient to support the metrics or outputs identified, it may require a return to Data Discovery (3) before proceeding.
+!!! tip Iterate as needed. If the data collected is not sufficient to support the metrics or outputs identified, it may require a return to Data Discovery (3) before proceeding.
 
 ---
 
@@ -430,8 +434,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Documentation available
 - Release accepted
 
-### Iterate
-> Iterate as needed. New insights, user feedback, or changing requirements may require a return to Data Discovery (3), Design (4), or Build (5) before proceeding.
+!!! note Iterate as needed. New insights, user feedback, or changing requirements may require a return to Data Discovery (3), Design (4), or Build (5) before proceeding.
 
 ---
 
