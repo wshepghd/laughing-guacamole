@@ -135,11 +135,9 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Review reusable patterns and assets
 
 ### Guidance
-- Setup working environments as per wiki guidance _Link to environment setup_
-- An agile approach to project delivery is recommended, see the following links for further information:
-   - [Shape Up] (https://basecamp.com/shapeup)
-- Guidance for repository setup:
-   - https://cookiecutter-data-science.drivendata.org/ 
+- Setup working environments as per wiki guidance (_Link to environment setup_)
+- An agile approach to project delivery is recommended, for example: [Shape Up] (https://basecamp.com/shapeup)
+- Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/ 
 
 === "Exploratory Analysis"
     - Agree key questions and hypotheses to investigate
@@ -168,10 +166,10 @@ This workflow is intended for projects where data is used to explore, explain, p
     - Define model governance requirements
     - Agree validation and approval approach
     - Prepare for the following expected controls:
-       - Model specification
-       - Validation
-       - Assumptions log
-       - Review record
+          - Model specification
+          - Validation
+          - Assumptions log
+          - Review record
  
 === "Dashboard & Reporting"
     - Confirm audience groups and decision-makers
@@ -207,8 +205,7 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Document limitations
 
 ### Guidance
-- Methodology for data discovery:
-   - https://www.ibm.com/docs/it/SS3RA7_18.3.0/pdf/ModelerCRISPDM.pdf (this is partially tied to a software but the advice is mostly generic)
+- Methodology for data discovery: https://www.ibm.com/docs/it/SS3RA7_18.3.0/pdf/ModelerCRISPDM.pdf (this is partially tied to a software but the advice is mostly generic)
 
 === "Exploratory Analysis"
     - Assess breadth of available data sources
@@ -252,15 +249,31 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Define validation approach
 
 ### Guidance
-- OKRs as a method to improve goal setting:
-   - https://www.whatmatters.com/get-examples
+- OKRs as a method to improve goal setting: https://www.whatmatters.com/get-examples
+
+=== "Exploratory Analysis"
+    - X
+ 
+=== "Repeatable Analysis"
+    - Y
+ 
+=== "Model Development"
+    - Z
+ 
+=== "Dashboard & Reporting"
+    - A
 
 ### Exit criteria
 - Analytical design agreed
 - Validation approach agreed
 - Key assumptions documented
 
-## 5. Iterative build
+### Iterate
+> Iterate as needed. If the data collected is not sufficient to support the metrics or outputs identified, it may require a return to Data Discovery (3) before proceeding.
+
+---
+
+## 5. Build
 > Develop the analysis or analytical product in manageable increments, adapting the solution as understanding improves.
 
 ### Activities
@@ -269,10 +282,21 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Document decisions
 - Manage backlog and change
 
-### Inputs
-
+### Guidance
 - Code collaboration
 - UI/UX guidance
+
+=== "Exploratory Analysis"
+    - X
+ 
+=== "Repeatable Analysis"
+    - Y
+ 
+=== "Model Development"
+    - Z
+ 
+=== "Dashboard & Reporting"
+    - A
 
 ### Exit criteria
 
@@ -280,6 +304,8 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Documentation maintained
 - User feedback incorporated
 - Ready for testing
+
+---
 
 ## 6. Testing, validation and assurance
 > Confirm the solution is correct, reliable, understandable and suitable for its intended use.
@@ -290,14 +316,28 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Conduct user acceptance testing
 - Update backlog
 
-### Inputs
+### Guidance
 - ?
+
+=== "Exploratory Analysis"
+    - X
+ 
+=== "Repeatable Analysis"
+    - Y
+ 
+=== "Model Development"
+    - Z
+ 
+=== "Dashboard & Reporting"
+    - A
 
 ### Exit criteria
 - Testing completed
 - Issues accepted or added to backlog
 - Validation evidence recorded
 - Approved for release
+
+---
 
 ## 7. Delivery
 > Prepare, approve and release the analytical output/increment through an appropriate channel so that intended users can access, understand and use it.
@@ -310,8 +350,19 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Verify production operation
 
 ### Guidance
-- To help ensure that project outputs tell an effective story:
-   - https://www.effectivedatastorytelling.com/
+- To help ensure that project outputs tell an effective story: https://www.effectivedatastorytelling.com/
+
+=== "Exploratory Analysis"
+    - X
+ 
+=== "Repeatable Analysis"
+    - Y
+ 
+=== "Model Development"
+    - Z
+ 
+=== "Dashboard & Reporting"
+    - A
 
 ### Exit criteria
 - Solution published
@@ -320,7 +371,9 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Release accepted
 
 ### Iterate
-> Iterate as needed. New insights, user feedback, or changing requirements may require a return to Data Discovery (3), Design (4), or Iterative Build (5) before proceeding.
+> Iterate as needed. New insights, user feedback, or changing requirements may require a return to Data Discovery (3), Design (4), or Build (5) before proceeding.
+
+---
 
 ## 8. Handover
 > Transfer the knowledge, responsibilities and assets needed for the client or receiving team to operate, maintain and improve the analytical solution.
@@ -332,8 +385,20 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Communicate release
 - Verify production operation
 
-### Inputs
+### Guidance
 - ?
+
+=== "Exploratory Analysis"
+    - X
+ 
+=== "Repeatable Analysis"
+    - Y
+ 
+=== "Model Development"
+    - Z
+ 
+=== "Dashboard & Reporting"
+    - A
 
 ### Exit criteria
 - Ownership assigned
