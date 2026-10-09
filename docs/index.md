@@ -140,7 +140,6 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Guidance for repository setup: https://cookiecutter-data-science.drivendata.org/ 
 
 === "Exploratory Analysis"
-    Additional activities:
     - Agree key questions and hypotheses to investigate
     - Identify potentially relevant datasets and SMEs
     - Set expectations that findings may change project direction
@@ -151,7 +150,9 @@ This workflow is intended for projects where data is used to explore, explain, p
        - Peer review
  
 === "Repeatable Analysis"
+    
     Additional activities:
+    
     - Define frequency of execution and operational ownership
     - Identify opportunities for automation from the outset
     - Agree reproducibility and documentation standards
@@ -163,7 +164,9 @@ This workflow is intended for projects where data is used to explore, explain, p
        - Reproducible environment
  
 === "Model Development"
+    
     Additional activities:
+    
     - Confirm prediction/classification objective and success metrics
     - Identify required modelling tools and compute resources
     - Define model governance requirements
@@ -260,16 +263,31 @@ This workflow is intended for projects where data is used to explore, explain, p
 - OKRs as a method to improve goal setting: https://www.whatmatters.com/get-examples
 
 === "Exploratory Analysis"
-    - X
+    - Sketch potential analytical approaches and visualisations.
+    - Assess data quality risks and gaps.
+    - Define the expected outputs, decisions, or recommendations.
  
 === "Repeatable Analysis"
-    - Y
+    - Define the analytical workflow end-to-end.
+    - Identify manual activities to be automated.
+    - Design data inputs, transformations and outputs.
+    - Define scheduling, refresh and execution requirements.
  
 === "Model Development"
-    - Z
+    - Determine modelling approach and candidate techniques.
+    - Define target variables, features and training datasets.
+    - Agree success metrics and performance thresholds.
+    - Design training, validation and testing strategy.
+    - Define explainability, bias and fairness requirements.
+    - Design deployment, monitoring and retraining approach.
  
 === "Dashboard & Reporting"
-    - A
+    - Define KPIs, measures and calculations (document definitions, business rules and assumptions).
+    - Design dashboard structure, page hierarchy and navigation.
+    - Create wireframes or mock-ups of reports and dashboards.
+    - Define filtering, drill-down and interaction requirements.
+    - Agree accessibility, usability and performance requirements.
+    - Define publication, refresh and distribution requirements.
 
 ### Exit criteria
 - Analytical design agreed
@@ -294,18 +312,36 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Code collaboration
 - UI/UX guidance and examples: https://lawsofux.com/, https://m3.material.io/, https://design-system.service.gov.uk/
 - Data visualisation guidance: https://royal-statistical-society.github.io/datavisguide/, https://service-manual.ons.gov.uk/data-visualisation
-
+- To help ensure that project outputs tell an effective story: https://www.effectivedatastorytelling.com/
+ 
 === "Exploratory Analysis"
-    - X
+    - Test hypotheses and refine lines of enquiry.
+    - Create and iterate exploratory visualisations.
+    - Engage stakeholders to review findings and steer further investigation.
+    - Document emerging insights, assumptions and limitations.
+    - Refine business questions based on evidence discovered.
  
 === "Repeatable Analysis"
-    - Y
+    - Build data ingestion and transformation workflows.
+    - Develop reusable analytical calculations and business rules.
+    - Automate data cleansing and quality checks.
+    - Implement version control and peer review practices.
+    - Create modular, maintainable code and reusable components.
  
 === "Model Development"
-    - Z
+    - Develop and test feature engineering approaches.
+    - Train and compare candidate models.
+    - Evaluate model performance against agreed metrics.
+    - Tune parameters and optimise model behaviour.
+    - Analyse prediction errors and model limitations.
  
 === "Dashboard & Reporting"
     - Dashboard design guidance: https://www.datacamp.com/tutorial/dashboard-design-tutorial
+    - Build dashboard pages incrementally.
+    - Implement KPI calculations and business rules.
+    - Develop visualisations and interaction mechanisms.
+    - Configure filters, drill-downs and navigation.
+    - Review prototypes with users and gather feedback.
 
 ### Exit criteria
 
@@ -325,20 +361,28 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Conduct user acceptance testing
 - Update backlog
 
-### Guidance
-- ?
-
 === "Exploratory Analysis"
-    - X
+    - Verify findings using alternative methods or datasets where available.
+    - Confirm trends, anomalies and patterns are supported by evidence.
+    - Review assumptions, caveats and limitations with stakeholders.
  
 === "Repeatable Analysis"
-    - Y
+    - Test workflow execution using representative datasets.
+    - Validate calculations against known expected results.
+    - Verify data quality checks and exception handling.
+    - Test automated processes, schedules and dependencies.
+    - Conduct peer reviews of code and analytical logic.
  
 === "Model Development"
-    - Z
+    - Evaluate models against agreed success metrics.
+    - Validate training, testing and holdout datasets.
+    - Compare candidate models and select preferred approach.
  
 === "Dashboard & Reporting"
-    - A
+    - Validate KPI calculations against source systems.
+    - Verify metric definitions and business rules.
+    - Test filters, drill-downs and user interactions.
+    - Confirm dashboard outputs align with stakeholder requirements.
 
 ### Exit criteria
 - Testing completed
@@ -358,20 +402,27 @@ This workflow is intended for projects where data is used to explore, explain, p
 - Communicate release
 - Verify production operation
 
-### Guidance
-- To help ensure that project outputs tell an effective story: https://www.effectivedatastorytelling.com/
-
 === "Exploratory Analysis"
-    - X
+    - Present key findings, insights and recommendations to stakeholders.
+    - Communicate confidence levels, assumptions and limitations.
+    - Highlight opportunities, risks and areas requiring further investigation.
  
 === "Repeatable Analysis"
-    - Y
+    - Deploy automated workflows into the production environment.
+    - Validate operational performance following deployment.
+    - Publish outputs to agreed users and channels.
  
 === "Model Development"
-    - Z
+    - Deploy the approved model into the target environment.
+    - Configure monitoring, alerting and performance tracking.
+    - Validate model behaviour in production conditions.
+    - Establish operational processes for model management.
  
 === "Dashboard & Reporting"
-    - A
+    - Publish dashboards and reports to agreed platforms.
+    - Configure access controls, security roles and permissions.
+    - Communicate availability and usage guidance to users.
+    - Support user onboarding and adoption activities.
 
 ### Exit criteria
 - Solution published
@@ -388,26 +439,12 @@ This workflow is intended for projects where data is used to explore, explain, p
 > Transfer the knowledge, responsibilities and assets needed for the client or receiving team to operate, maintain and improve the analytical solution.
 
 ### Activities
-- Deploy or publish solution
-- Configure access
-- Complete release activities
-- Communicate release
-- Verify production operation
-
-### Guidance
-- ?
-
-=== "Exploratory Analysis"
-    - X
- 
-=== "Repeatable Analysis"
-    - Y
- 
-=== "Model Development"
-    - Z
- 
-=== "Dashboard & Reporting"
-    - A
+- Confirm ownership, support responsibilities and escalation routes.
+- Transfer knowledge to operational teams and end users.
+- Complete technical, operational and user documentation.
+- Provide training, walkthroughs and knowledge-sharing sessions.
+- Verify access, permissions and deployment arrangements.
+- Ensure all project artefacts are stored in agreed locations.
 
 ### Exit criteria
 - Ownership assigned
